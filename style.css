@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+nav ul a{
+  text-decoration: none;
+  color: bisque;
+  display: block;
+  padding: 10px;
+  border: 2px solid rgb(60, 9, 107);
+  border-radius: 5px;
+}
+nav ul{
+  list-style-type:none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(60, 9, 107);
+  border-bottom: 8px solid rgba(129, 21, 21, 0.479);
+  transition-duration: 5ms;
+}
+nav a:hover{
+  text-shadow: 0 0 55px yellow;
+  text-decoration: underline;
+}
+nav a:active{
+  color: black;
+  background-color: aqua;
+  
+}
+nav a:focus{
+  color: black;
+  background-color: aqua;
+  border: 2px solid black;
+  box-shadow: 0 0 10px;
+}
